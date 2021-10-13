@@ -5,8 +5,6 @@
 
 ## Visual Studio Code
 VS Code es un entorno creado por Microsoft para editar texto, es bastante _user-friendly_ y nos permite añadir bastantes extensiones que nos ayudarán a mejorar nuestra experiencia, además tiene muchisimas funciones de personalización.
-
-#### Editor
  
  Visual tiene un sistema de edición bastante cómodo, nos muestra en que línea estamos, en que espacio, nos permite personalizar la identación y dependiendo del lenguaje en el que escribamos también personalizará la diferencia de colores en el texto.
  
@@ -26,4 +24,44 @@ Pasando al tema de github también existe una extensión que nos facilita bastan
 
 ![imagen4](4.png)
 
+Hablando más sobre las extensiones es interesante mencionar dos que suelen ser fundamentales, y las utilizamos mucho durante el grado. Al menos en mi caso, estas son:
 
+* SSH Remote
+* liveshare
+
+SSH Remote es una extensión creada por Microsoft que nos permite abrir una máquina de forma remota como bien dice su nombre. Para nosotros es útil porque utilizamos una máquina remota en el entorno IAAS de la Universidad de La Laguna y estas máquinas no disponen de entorno visual, utilizar esta extensión nos facilita el desarrollo de las prácticas que tenemos que entregar.
+
+![imagen5](5.png)
+
+Para configurarlo debemos entrar en la consola de comandos de VS Code presionando _F1_ y allí debemos elegir la opción que mejor nos venga dentro de las disponibles:
+
+![imagen6](6.png)
+
+Yo, presionaré la opción de ver la configuración del ssh para añadir como HOST mi máquina del IAAS, y una vez hecho eso añadiendo la IP y habiendo configurado el SSH desde la máquina intentaré conectarme a la máquina presionando _SSH Add new Host_:
+
+![imagen7](7.png)
+![imagen9](9.png)
+
+Como vemos la configuración ha funcionado y si presionamos connect, nos llevará a una nueva ventana con los directorios de nuestra máquina remota:
+
+![imagen8](8.png)
+
+También mencioné antes la extensión de liveshare, esta nos permite trabajar en un fichero de forma remota con colaboradores en tiempo real.
+
+![imagen10](10.png)
+
+Funciona presionando la extensión y creará una nueva sesión dandonos entas opciones para trabajar en equipo, hace poco incluso se ha añadido la opción de hacer llamadas de voz para entenderse mejor:
+
+![imagen11](11.png)
+
+Una vez compartida la sesión, podremos ver quien se ha unido a la izquierda, junto con la información de en qué fichero y en qué directorio estamos trabajando.
+
+![imagen12](12.png)
+
+## Gitpod
+
+Gitpod es un entorno para editar texto, igual que Visual Studio, que nos permite trabajar en el navegador en cualquier dispositivo sobre un repositorio de git.
+
+Para usarlo, debemos crear una cuenta y vincularla con nuestra cuenta de github, dando los permisos pertinentes. Una vez creada, y eligiendo el plan de uso gratuito, podemos utilizarlo inmediatamente. Tiene las mismas funcionalidades que Visual Studio, incluso tiene la misma estética. Sin embargo, la ventaja es que se puede trabajar en el navegador de cualquier dispositivo.
+
+![imagen13](13.png)
